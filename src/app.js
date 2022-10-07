@@ -64,7 +64,7 @@ app.get('/help/*', (req, res) => {
         title: '404',
         errormessages: 'Help article not found'
     })
-})
+}) 
 
 app.get('*', (req, res) => {
     res.render('404', {
